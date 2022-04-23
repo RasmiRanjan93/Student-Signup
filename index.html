@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Sign Up</title>
+</head>
+
+<body>
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/3227472.jpg" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 contents">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="mb-4">
+                <h3>Sign Up</h3>
+                <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p>
+              </div>
+              <form action="#" method="post">
+                <div class="form-group first">
+                  <label for="username"> Name</label>
+                  <input type="text" class="form-control" id="username" required>
+
+                </div>
+                <div class="form-group last mb-4">
+                  <label for="password">Email Id</label>
+                  <input type="text" class="form-control" id="password" required>
+
+                </div>
+                <div class="form-group last mb-4">
+                  <label for="password">Phone Number</label>
+                  <input type="text" class="form-control" id="password" required>
+                </div>
+                <div class="form-group last mb-4">
+                  <label for="password">Course</label>
+                  <input type="text" class="form-control" id="password" required>
+                  </div>
+                  <div class="form-group last mb-4">
+                    <label for="password" class="CS">Passout Year</label>
+                    <!-- <input type="text" class="form-control" id="password"> -->
+                    <select id="password" required="required">
+                      <option value="" disabled="disabled" selected="selected"></option>
+                      <option value="#">2022</option>
+                      <option value="#">2021</option>
+                      <option value="#">2020</option>
+                      <option value="#">2019</option>
+                      <option value="#">2018</option>
+                      <option value="#">2017</option>
+                      <option value="#">2016</option>
+                    </select>
+                    </div>
+                  <div class="form-group last mb-4">
+                    <label for="password">CGPA/Percentage</label>
+                    <input type="text" class="form-control" id="password" required >
+                    </div>
+                    <div class="form-group last mb-4">
+                      <label for="password" class="CS">Branch</label>
+                      <!-- <input type="text" class="form-control" id="password"> -->
+                      <select id="password" required="required">
+                        <option value="" disabled="disabled" selected="selected"></option>
+                        <option value="#">EE</option>
+                        <option value="#">EEE</option>
+                        <option value="#">ECE</option>
+                        <option value="#">MECHANICAL</option>
+                        <option value="#">CIVIL</option>
+                        <option value="#">ETC</option>
+                        <option value="#">METALOGY</option>
+                      </select>
+                      </div>
+                    
+                    
+                    <div class="form-group last mb-4">
+                      <label for="password">College/University</label>
+                      <input type="text" class="form-control" id="password" required>
+                      </div>
+                      <div class="form-group last mb-4">
+                        <label for="password" class="CS">University Code</label>
+                        <!-- <input type="text" class="form-control" id="password"> -->
+                        <select id="password" required="required">
+                          <option value="" disabled="disabled" selected="selected"></option>
+                          <option value="#">BBEEE01</option>
+                          <option value="#">BBECE02</option>
+                          <option value="#">BBECE03</option>
+                          <option value="#">BBECE04</option>
+                          <option value="#">BBECE05</option>
+                          <option value="#">BBECE06</option>
+                          <option value="#">BBECE07</option>
+                        </select>
+                        </div>
+                      <div class="form-group last mb-4">
+                        <label for="password">City</label>
+                        <input type="text" class="form-control" id="password" required>
+                        </div>
+                        <div class="form-group last mb-4">
+                          <label for="password">State</label>
+                          <input type="text" class="form-control" id="password" required>
+                          </div>
+                <div class="d-flex mb-5 align-items-center">
+                  <label class="control control--checkbox mb-0"><span class="caption">Remember me</span>
+                    <input type="checkbox" checked="checked" />
+                    <div class="control__indicator"></div>
+                  </label>
+                  <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span>
+                </div>
+
+                <input type="submit" value="Register" style="align-items: center; margin: auto;" class="btn text-white btn-block btn-primary" onclick=" myFunction()">
+
+                <span class="d-block text-left my-4 text-muted">Have An Account ? <strong><a
+                      href="#">Login</a></strong></span>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function myFunction() {
+      var txt;
+      if (confirm("Are You Sure?")) {
+        txt = "You pressed OK!";
+      } else {
+        txt = "You pressed Cancel!";
+      }
+      document.getElementById("demo").innerHTML = txt;
+    }
+    </script>
+</body>
+
+</html>
